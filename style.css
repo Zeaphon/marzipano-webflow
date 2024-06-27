@@ -79,8 +79,9 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 30px;
   padding: 5px;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background-color: rgba(255,255,255);
+  background-color: rgba(255,255,255,1);
+  color: #003B4D:
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -103,8 +104,7 @@ body.multiple-scenes.mobile #titleBar {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: #003B4D;
 }
 
 .mobile #fullscreenToggle {
@@ -153,8 +153,7 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: #003B4D;
 }
 
 .mobile #autorotateToggle {
@@ -207,8 +206,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: #003B4D;
 }
 
 .mobile #sceneListToggle {
@@ -273,8 +271,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0.8);
 }
 
 .mobile #sceneList {
@@ -313,6 +311,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: #003B4D;
 }
 
 .mobile #sceneList .scene .text {
@@ -325,8 +324,9 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 #sceneList .scene.current {
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: #fff;
+  background-color: #fff;
+  color: #003B4D;
 }
 
 /* Hide scene list when only a single scene exists */
@@ -781,13 +781,13 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .viewControlButton {
   display: none;
   position: absolute;
-  bottom: 0;
+  bottom: 3%;
   left: 50%;
   width: 40px;
   height: 40px;
-  padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  padding: 10px;
+  background-color: #003B4D;
+  border-radius: 10px;
 }
 
 body.view-control-buttons .viewControlButton {
