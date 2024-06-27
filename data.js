@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-oak-tec-kche",
-      "name": "Oak Tec Küche",
+      "name": "Küchenbereich",
       "levels": [
         {
           "tileSize": 256,
@@ -46,7 +46,7 @@ var APP_DATA = {
     },
     {
       "id": "1-oak-tec-meeting-room",
-      "name": "Oak Tec Meeting Room",
+      "name": "Meeting Bereich",
       "levels": [
         {
           "tileSize": 256,
@@ -96,7 +96,7 @@ var APP_DATA = {
     },
     {
       "id": "2-oak-tec-bro",
-      "name": "Oak Tec Büro",
+      "name": "Büroflächen",
       "levels": [
         {
           "tileSize": 256,
@@ -146,7 +146,7 @@ var APP_DATA = {
     },
     {
       "id": "3-oak-tec-ping-pong-tisch",
-      "name": "Oak Tec Ping Pong Tisch",
+      "name": "Ping Pong Tisch",
       "levels": [
         {
           "tileSize": 256,
@@ -214,7 +214,7 @@ var APP_DATA = {
     },
     {
       "id": "4-oak-tec-produktion-eingang",
-      "name": "Oak Tec Produktion Eingang",
+      "name": "Produktion Eingang",
       "levels": [
         {
           "tileSize": 256,
@@ -264,7 +264,7 @@ var APP_DATA = {
     },
     {
       "id": "5-oak-tek-produktion-2",
-      "name": "Oak Tek Produktion 2",
+      "name": "Produktion Geräte",
       "levels": [
         {
           "tileSize": 256,
@@ -326,7 +326,7 @@ var APP_DATA = {
     },
     {
       "id": "6-oak-tec-produktion-3",
-      "name": "Oak Tec produktion 3",
+      "name": "Lagerflächen",
       "levels": [
         {
           "tileSize": 256,
@@ -388,7 +388,7 @@ var APP_DATA = {
     },
     {
       "id": "7-oak-tec-produktion-4",
-      "name": "Oak Tec Produktion 4",
+      "name": "Produktion Übersicht",
       "levels": [
         {
           "tileSize": 256,
