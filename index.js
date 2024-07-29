@@ -86,7 +86,6 @@
       geometry: geometry,
       view: view,
       pinFirstLevel: true
-	  scrollZoom: false
     });
 
     // Create link hotspots.
