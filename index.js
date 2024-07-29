@@ -69,6 +69,7 @@
 
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
+  var viewer = new Marzipano.Viewer(element, { controls: { scrollZoom: false } });
 
   // Create scenes.
   var scenes = data.scenes.map(function(data) {
