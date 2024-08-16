@@ -63,8 +63,7 @@
   // Viewer options.
   var viewerOpts = {
     controls: {
-      mouseViewMode: data.settings.mouseViewMode,
-	  scrollZoom: false
+      mouseViewMode: data.settings.mouseViewMode
     }
   };
 
